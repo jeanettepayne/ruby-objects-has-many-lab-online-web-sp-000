@@ -5,11 +5,15 @@ class Song
 
 def initialize(title)
   @title = title
-  @songs << self
+  save
 end
 
 def artist(artist)
   @artist = artist
+end
+
+def save
+  @@songs << self
 end
 
 # def all_songs
