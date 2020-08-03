@@ -10,7 +10,7 @@ class Artist
   end
   
   def songs
-    song.all.select
+    Song.all.select
   end
   
 end
