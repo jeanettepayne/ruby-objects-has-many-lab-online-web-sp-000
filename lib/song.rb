@@ -17,7 +17,7 @@ def self.all
 end
 
 def artist_name
-  if @artist = nil 
+  if @artist == nil 
     nil 
   else
     self.artist.name 
