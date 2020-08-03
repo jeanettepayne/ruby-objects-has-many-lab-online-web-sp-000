@@ -2,15 +2,15 @@ class Song
   attr_accessor :artist
   attr_reader :songs, :title
 
-@@songs = []
+# @@songs = []
 
 def initialize(title)
   @title = title
-  @@songs << self
+  @songs << self
 end
 
 def all_songs
-  @@songs
+  @songs
 end
   
 end
