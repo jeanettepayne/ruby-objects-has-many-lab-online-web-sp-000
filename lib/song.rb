@@ -9,8 +9,12 @@ def initialize(title)
   @songs << self
 end
 
-def all_songs
-  @songs
+def artist(artist)
+  @artist = artist
 end
+
+# def all_songs
+#   @songs
+# end
   
 end
