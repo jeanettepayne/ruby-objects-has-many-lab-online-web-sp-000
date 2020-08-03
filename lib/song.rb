@@ -16,7 +16,7 @@ def save
   @@songs << self
 end
 
-def self.songs 
+def self.all 
   @@songs
 end
   
