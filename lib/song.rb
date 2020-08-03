@@ -8,10 +8,6 @@ def initialize(title)
   save
 end
 
-# def artist(artist)
-#   @artist = artist
-# end
-
 def save
   @@all << self
 end
