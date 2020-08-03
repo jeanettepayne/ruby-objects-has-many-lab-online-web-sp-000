@@ -9,8 +9,8 @@ class Artist
     song.artist = self
   end
   
-  # def songs
+  def songs
     
-  # end
+  end
   
 end
