@@ -15,5 +15,7 @@ end
 def self.all 
   @@all
 end
+
+def .song_count
   
 end
