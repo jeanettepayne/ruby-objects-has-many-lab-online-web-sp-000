@@ -20,7 +20,7 @@ class Post
     if @author.name == nil 
       nil 
     else
-      self.author.name
+      @author.name
     end
   end
   
