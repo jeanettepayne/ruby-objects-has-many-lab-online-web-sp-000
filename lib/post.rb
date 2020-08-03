@@ -12,4 +12,6 @@ class Posts
     @@all << self
   end
   
+  def 
+  
 end
